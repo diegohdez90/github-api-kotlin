@@ -8,8 +8,19 @@
     tools:context=".Activity.MainActivity">
 
     <EditText
+        android:id="@+id/account"
+        android:inputType="text"
+        android:imeOptions="actionSend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Type a github Account"/>
+
+    <Button
+        android:id="@+id/getAccount"
+        android:onClick="getAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Account"
+        android:layout_below="@id/account"/>
 
 </RelativeLayout>
