@@ -6,6 +6,6 @@ import com.github.kittinunf.fuel.core.FuelManager
 class GithubApi : Application() {
     override fun onCreate() {
         super.onCreate()
-        FuelManager.instance.basePath = "https://api.github.com/"
+        FuelManager.instance.basePath = "https://api.github.com"
     }
 }
